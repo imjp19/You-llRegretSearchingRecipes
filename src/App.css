@@ -1,7 +1,6 @@
 .App {
-  
-  min-height:100vh ;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #38bbf8 0%, #0097d3 100%);
 }
 
 .App-logo {
@@ -25,7 +24,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 60px;
+}
+h3 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-style: italic;
+  color: #fff;
+}
 .App-link {
   color: #61dafb;
 }
@@ -37,32 +49,35 @@
   to {
     transform: rotate(360deg);
   }
-} 
+}
 
-.search-form{
+.search-form {
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.search-bar{
-  width: 50%;
+.search-bar {
+  width: 40%;
   border: none;
+  border-radius: 20px;
   padding: 10px;
+  font-weight: 700;
 }
 
-.search-button{
-  background: lightcoral;
-  border:none;
+.search-button {
+  background: #38bbf8;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
   padding: 10px 20px;
   color: white;
-
+  font-weight: 700;
 }
 
-.recipes{
+.recipes {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
- 
